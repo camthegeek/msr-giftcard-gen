@@ -6,16 +6,16 @@ Now you can!
 
 # Requirements
 
-> Masari wallet RPC instance
-> NodeJS
-> Webserver
-> Elite skills.
+- Masari wallet RPC instance
+- NodeJS
+- Webserver
+- Elite skills.
 
 A Masari daemon is NOT required with this. There is no reason to launch the wallet-rpc instance with the daemon as we are not synchronizing wallets. However, if you do this, the wallets may not close until they are finished synchronizing causing a load of other issues for you that I will not help you with.
 
 # Running
 
-Start up your wallet RPC Instance with flags: --wallet-dir ./wallets --rpc-bind-port <port> --disable-rpc-login
+Start up your wallet RPC Instance with flags: `--wallet-dir ./wallets --rpc-bind-port <port> --disable-rpc-login`
 
 What it does: starts a RPC instance for Masari wallet, looks in ./wallets directory to open/create/save wallets to. Sits idle on port <port> until called upon.
 
