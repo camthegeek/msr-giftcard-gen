@@ -4,7 +4,8 @@
         "ip": "127.0.0.1",
         "port": "44444",
         "user": "x",
-        "password": "x"
+        "password": "x",
+        "wallet_dir": "/home/x/masari/build/release/bin/wallets"
     },
     "api": {
         "url": "127.0.0.1",

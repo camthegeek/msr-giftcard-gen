@@ -46,10 +46,10 @@ async function createWallet(length) {
                                                             "addr": addr.address
                                                         });
                                                         resolve(walletData) // send it to us
-                                                        fs.unlinkSync('./wallets/' + hashed + '.keys', (res, err) => {  // then delete the .keys file
+                                                        fs.unlinkSync(config.wallet.wallet_dir+'/' + hashed + '.keys', (res, err) => {  // then delete the .keys file
 
                                                         })
-                                                        fs.unlinkSync('./wallets/' + hashed + '.cache', (res, err) => { // then delete the .cache file
+                                                        fs.unlinkSync(config.wallet.wallet_dir+'/' + hashed + '.cache', (res, err) => { // then delete the .cache file
 
                                                         })
                                                     })
