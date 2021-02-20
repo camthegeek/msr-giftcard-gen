@@ -1,7 +1,7 @@
 const config = require('./config.json'); // config variables
 const express = require('express'); // express for api
 const app = express(); // initiate express
-const M = require('monerojs'); // monerojs package by sneurlax works decently
+const M = require('monerojs2'); // monerojs package by sneurlax works decently
 const cors = require('cors'); // easiest way to deal with CORS
 const fs = require('fs'); // file read/open/write package
 
