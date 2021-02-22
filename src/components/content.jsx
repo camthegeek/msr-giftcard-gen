@@ -70,6 +70,10 @@ class Main extends Component {
                 <ul>
                   <li>After generating, you technically own the wallet. What you choose to do with it is up to you. Our server deletes the generated wallet files immediately after displaying on your screen.</li>
                 </ul>
+                <li>How can I trust this site?</li>
+                <ul>
+                  <li>Trust is a personal choice. Source code available here: <a href="https://github.com/camthegeek/msr-giftcard-gen">https://github.com/camthegeek/msr-giftcard-gen</a>.</li>
+                </ul>
               </ul>
               <p>Leave a short message to go on the front of the gift card!</p>
               <input size="35" name="message" onChange={this.handleChange}></input> 
